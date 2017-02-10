@@ -1,0 +1,100 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+  font-family: 'Roboto', sans-serif !important; 
+}
+
+.top-banner  a {
+  color: white;
+}
+.top-banner {
+    background: #43A4AD;
+  border-radius: 0px !important;
+    height: 70px;
+}
+.background{
+  height:100vh;
+  width:100%;
+  background: gainsboro;
+}
+.navbar{
+  margin-bottom: 0px !important;
+}
+
+.login-background {
+    background: white;
+    min-height: 837px;
+    width: 71%;
+    margin: 0 auto;
+    background: url(/content/images/loginbackground.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.login {
+    width: 358px;
+    height: 231px;
+    background-color: #43a4ad;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    max-width: 100%;
+    max-height: 100%;
+    overflow: auto;
+    border-radius: 6px;
+}
+.login-inputs {
+    margin-top: 31px;
+}
+
+input[type="password"],
+input[type="text"] {
+    height: 34px;
+    width: 94%;
+    border-radius: 6px;
+    padding: 5px;
+    margin: 11px;
+}
+
+button  {
+    margin: 11px !important;
+    background: #c26961;
+    border: none !important;
+    color: white !important;
+    font-size: 24px !important;
+    text-transform: uppercase !important;
+}
+.loginbutton{
+  width: 94%;
+  border-radius: 6px;
+}
+
+button:hover{
+  background: #ad4c43;
+}
+.nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: none;
+    background-color: #ad4c43 !important;
+    color:white !important;
+    padding: 19px;
+}
+.imgcontainer {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    max-width: 100%;
+    max-height: 100%;
+    /* overflow: auto; */
+    /* border-radius: 2px; */
+    width: 188px;
+    height: 517px;
+}
